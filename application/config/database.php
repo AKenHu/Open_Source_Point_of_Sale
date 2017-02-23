@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'admin';
-$db['default']['password'] = 'pwd2017';
-$db['default']['database'] = 'pos';
+$db['default']['hostname'] = 'irbdatabase.c2ycvfqgvmr8.ap-southeast-1.rds.amazonaws.com';
+$db['default']['username'] = 'akentest';
+$db['default']['password'] = 'akenpwd2017';
+$db['default']['database'] = 'aken_pos';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = 'ospos_';
 $db['default']['pconnect'] = FALSE;
